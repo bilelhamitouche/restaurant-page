@@ -1,68 +1,18 @@
-<head><script defer src="bundle.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: SyntaxError: /home/bilel/repos/restaurant-page/packa  ge.json (directory description file): SyntaxError: /home/bilel/repos/r  estaurant-page/package.json (directory description file): SyntaxError:   Expected ',' or '}' after property value in JSON at position 197 (lin  e 8 column 5)
-  ModuleNotFoundError: Module not found: SyntaxError: /home/bilel/repos/  restaurant-page/package.json (directory description file): SyntaxError  : /home/bilel/repos/restaurant-page/package.json (directory descriptio  n file): SyntaxError: Expected ',' or '}' after property value in JSON   at position 197 (line 8 column 5)
-      at /home/bilel/repos/restaurant-page/node_modules/webpack/lib/Comp  ilation.js:2029:28
-      at /home/bilel/repos/restaurant-page/node_modules/webpack/lib/Norm  alModuleFactory.js:817:13
-      at eval (eval at create (/home/bilel/repos/restaurant-page/node_mo  dules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
-      at /home/bilel/repos/restaurant-page/node_modules/webpack/lib/Norm  alModuleFactory.js:275:22
-      at eval (eval at create (/home/bilel/repos/restaurant-page/node_mo  dules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
-      at /home/bilel/repos/restaurant-page/node_modules/webpack/lib/Norm  alModuleFactory.js:448:22
-      at /home/bilel/repos/restaurant-page/node_modules/webpack/lib/Norm  alModuleFactory.js:122:11
-      at /home/bilel/repos/restaurant-page/node_modules/webpack/lib/Norm  alModuleFactory.js:654:23
-      at /home/bilel/repos/restaurant-page/node_modules/neo-async/async.  js:2830:7
-      at done (/home/bilel/repos/restaurant-page/node_modules/neo-async/  async.js:2925:13)
-  
-  - Compilation.js:2029 
-    [restaurant-page]/[webpack]/lib/Compilation.js:2029:28
-  
-  - NormalModuleFactory.js:817 
-    [restaurant-page]/[webpack]/lib/NormalModuleFactory.js:817:13
-  
-  
-  - NormalModuleFactory.js:275 
-    [restaurant-page]/[webpack]/lib/NormalModuleFactory.js:275:22
-  
-  
-  - NormalModuleFactory.js:448 
-    [restaurant-page]/[webpack]/lib/NormalModuleFactory.js:448:22
-  
-  - NormalModuleFactory.js:122 
-    [restaurant-page]/[webpack]/lib/NormalModuleFactory.js:122:11
-  
-  - NormalModuleFactory.js:654 
-    [restaurant-page]/[webpack]/lib/NormalModuleFactory.js:654:23
-  
-  - async.js:2830 
-    [restaurant-page]/[neo-async]/async.js:2830:7
-  
-  - async.js:2925 done
-    [restaurant-page]/[neo-async]/async.js:2925:13
-  
-  - child-compiler.js:174 
-    [restaurant-page]/[html-webpack-plugin]/lib/child-compiler.js:174:18  
-  - Compiler.js:564 finalCallback
-    [restaurant-page]/[webpack]/lib/Compiler.js:564:5
-  
-  - Compiler.js:590 
-    [restaurant-page]/[webpack]/lib/Compiler.js:590:11
-  
-  - Compiler.js:1213 
-    [restaurant-page]/[webpack]/lib/Compiler.js:1213:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [restaurant-page]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1209 
-    [restaurant-page]/[webpack]/lib/Compiler.js:1209:33
-  
-  - Compilation.js:2802 finalCallback
-    [restaurant-page]/[webpack]/lib/Compilation.js:2802:11
-  
-  - Compilation.js:3107 
-    [restaurant-page]/[webpack]/lib/Compilation.js:3107:11
-  
-  
-</pre>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Pie Hard Pizza</title>
+  <script defer src="bundle.js"></script></head>
+  <body>
+    <header>
+      <nav>
+        <h1>Pie Hard Pizza</h1>
+        <button class="nav-btn home-btn">Home</button>
+        <button class="nav-btn menu-btn">Menu</button>
+        <button class="nav-btn contact-btn">Contact</button>
+      </nav>
+    </header>
+    <div id="content"></div>
+  </body>
+</html>
