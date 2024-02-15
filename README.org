@@ -5,7 +5,7 @@ Restaurant page website made with HTML, CSS and JavaScript.
 
 [[./screenshots/homepage.png]]
 [[./screenshots/menupage.png]]
-[[./screenshots/contactpage]]
+[[./screenshots/contactpage.png]]
 
 [[https://billelmadrid.github.io/restaurant-page][Live Demo]]
 
